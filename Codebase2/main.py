@@ -16,7 +16,7 @@ def prepare_tensors(df):
     return X_seq, y
 
 
-def main(filepath='wind.csv'):
+def main(filepath='F:\HMEL_Project\data_folder\merged_refinery_data.csv'):
     dl = DataLoader(filepath)
     df = dl.load()
     fe = FeatureEngineer()
